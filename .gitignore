@@ -1,0 +1,12 @@
+.vs/**
+.vscode/**
+
+*.elf
+*.exe
+*.ini
+
+obj/**
+bin/**
+build/**
+toolchain/**
+ignore/**
