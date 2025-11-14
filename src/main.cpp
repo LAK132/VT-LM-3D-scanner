@@ -31,7 +31,6 @@ void update_poses()
 	vr::VRCompositor()->WaitGetPoses(
 	  tracked_device_poses, vr::k_unMaxTrackedDeviceCount, NULL, 0);
 
-	bool found_first = false, found_second = false;
 	for (uint32_t nDevice = 0; nDevice < vr::k_unMaxTrackedDeviceCount;
 	     ++nDevice)
 	{
